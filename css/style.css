@@ -1,0 +1,38 @@
+.nav-blue,
+.navbar-nav .dropdown-menu
+{
+    background-color: blue !important;
+}
+
+.slider{
+width: 100%;
+height: 50vh;
+background: #666;
+
+}
+.section-border{
+    background: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #666;
+
+
+}
+
+.service-item{
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    min-height: 350px;
+    padding: 15px;
+    flex-shrink: inherit;
+}
+
+.btn-toolbar{
+    text-align: center;
+}
+.service-item h1{
+    color: red;
+}
